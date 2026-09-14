@@ -1,16 +1,48 @@
-# React + Vite
+# ⚡ NovaTech OS — Cloud Operations & Telemetry Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A production-grade, responsive SaaS landing page and interactive infrastructure monitoring dashboard built with **React**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+Designed with modern enterprise telemetry platforms in mind (inspired by platforms like Datadog and Linear), NovaTech demonstrates end-to-end frontend architecture, client-side session management, real-time data filtering, and file generation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🌐 Marketing & Landing Page
+- **Hero & Value Proposition:** High-converting CTA hierarchy with an interactive live platform preview card.
+- **Dynamic Pricing Calculator:** Toggle between Monthly and Annual billing tiers with live discount computation.
+- **Responsive Navigation:** Mobile-friendly drawer navigation with clean glassmorphic blur treatments.
+- **Enterprise Design System:** Built entirely on Tailwind CSS using the modern *Cyber Dark* palette (Slate-950 / Indigo-600).
 
-## Expanding the ESLint configuration
+### 🖥️ Operations Telemetry Dashboard
+- **Session & Auth Management:** Simulated client-side authentication flow with `localStorage` persistence, personalized greetings, and instant 1-click demo access.
+- **Live Cluster Stream:** Interactive event stream showcasing database migrations, webhook endpoints, and certificate rotations.
+- **Dynamic Real-Time Search:** Instant multi-column live search filtering across service names, event IDs, and timestamps.
+- **Telemetry Export Engine:** Functional client-side `.csv` report generation and download for active telemetry feeds.
+- **Interactive Team Management:** Full team member management table with role assignment and privilege modification modals.
+- **System Observability & Latency Monitoring:** Real-time compute utilization bars (CPU, RAM, Bandwidth) and worldwide edge node health indicators.
+- **Safe Session Teardown:** Modal-driven logout confirmation flow to prevent accidental session termination.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Iconography:** [Lucide React](https://lucide.dev/)
+- **Deployment:** [Vercel](https://vercel.com/)
+- **Version Control:** Git & GitHub
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have Node.js and a package manager installed (`pnpm`, `npm`, or `yarn`).
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Sandeha10/novatech-saas-landing.git](https://github.com/Sandeha10/novatech-saas-landing.git)
+   cd novatech-saas-landing
